@@ -13,6 +13,8 @@ unzip("URI_HAR_Dataset.zip")
 source("run_analysis.R")
 ```
 
+The tidied data is available as a variable called `tidy_df`. To view it, run:
+
 ## Script details
 
 The script itself is pretty well documented, so check that first. Overall, the script merges several different data files from the UCI dataset to create a master merged dataset, with properly named variables.
